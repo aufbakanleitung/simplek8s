@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: client
-      image: hvdveer/multi-docker-client
+      image: hvdveer/multi-docker-worker
       ports:
         - containerPort: 3000
